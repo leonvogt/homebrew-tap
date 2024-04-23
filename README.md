@@ -1,11 +1,6 @@
-# Leonvogt Tap
+# Homebrew Taps
 
-## How do I install these formulae?
-
-`brew install leonvogt/tap/<formula>`
-
-Or `brew tap leonvogt/tap` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Install Lunar
+```bash
+brew install leonvogt/tap/lunar-db
+```
