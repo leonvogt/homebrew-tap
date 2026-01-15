@@ -3,7 +3,7 @@ cask "lunar-db" do
   name "lunar-db"
   desc "Database snapshot tool for PostgreSQL databases. Installs the `lunar` command."
   homepage "https://github.com/leonvogt/lunar"
-  version "0.1.0-rc.1"
+  version "0.1.0-rc.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lunar-db" do
   on_macos do
     on_intel do
       url "https://github.com/leonvogt/lunar/releases/download/v#{version}/lunar_Darwin_x86_64.tar.gz"
-      sha256 "5a1aa3a3fc6a2c63dfa7dd7106de73cacec1b9822b99c5d5e271b826fc29d999"
+      sha256 "8ba26ad7e30c7748e7a36ef280326329ea887d8f4ef848edb124615da7998f97"
     end
     on_arm do
       url "https://github.com/leonvogt/lunar/releases/download/v#{version}/lunar_Darwin_arm64.tar.gz"
-      sha256 "f12c5950b1b053f9e9da97cd6e27d88fa2c4e5cc42f9232417e54c94d622e207"
+      sha256 "e2d9f432ed894c06cc7b7b4002d0edf66f71d6b732bb7dc615635091f78b08d5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/leonvogt/lunar/releases/download/v#{version}/lunar_Linux_x86_64.tar.gz"
-      sha256 "3275e0676758442529fb80f61618149feb9246ef5088441a4ffce5d16a955cac"
+      sha256 "34f84523cd4cfa165ad32b790a0a1b38a88ad48f95baca22aed2cdacd551a5c6"
     end
     on_arm do
       url "https://github.com/leonvogt/lunar/releases/download/v#{version}/lunar_Linux_arm64.tar.gz"
-      sha256 "9e642b90d7b5738daa536e46f4a577ce7f5b72db59cd32800a3fd9e0f783811e"
+      sha256 "38cce329616d1d69146fd3b7e9d9438d7fecbef2d835d7805e517c59c389dc3e"
     end
   end
 
